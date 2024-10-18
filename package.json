@@ -1,0 +1,19 @@
+{
+  "name": "my-pern-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
